@@ -1,5 +1,5 @@
 {
-  "name": "redux-promise-middleware",
+  "name": "redux-promise-action-middleware",
   "version": "0.0.0",
   "description": "A Redux middleware that allows to automatically generate actions based on the state of the promise",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository" :
   { "type" : "git"
-  , "url" : "https://github.com/FrancescoSaverioZuppichini/redux-promise-middleware"
+  , "url" : "https://github.com/FrancescoSaverioZuppichini/redux-promise-action-middleware"
   },
   "author": "Francesco Saverio Zuppichini",
   "license": "ISC"

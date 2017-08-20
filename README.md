@@ -1,17 +1,17 @@
-# Promise Middleware
-## A generic Flux/Redux midleware to handle promises
+# Promise ACtion Middleware
+## A generic Flux/Redux midleware to generate actions based on the promise status
 
 ### Installation
 
 ```
-npm install promise-middleware
+npm install redux-promise-action-middleware
 ```
 
 ### Usage
 Add the middleware to Redux as always. You also need `redux-thunk` to make async actions work.
 
 ```
-import promiseMiddleware from 'promise-middleware'
+import promiseMiddleware from 'redux-promise-action-middleware'
 
 const store = createStore(reducer, applyMiddleware(thunk,promiseMiddleware));
 

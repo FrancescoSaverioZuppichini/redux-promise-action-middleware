@@ -29,7 +29,7 @@ Remember, you need to put the Promise in the **promise field**
 
 Then the middleware will generate two actions: `FETCH_USER_LOADING` and `FETCH_USER_SUCCESS`. The payload is available on the `data` field of the action and the error on `err`
 
-![alt text](https://github.com/FrancescoSaverioZuppichini/promise-middleware/blob/master/docs/images/logger.png?raw=true)
+![alt text](https://github.com/FrancescoSaverioZuppichini/redux-promise-middleware/blob/master/docs/images/logger.png?raw=true)
 
 
 For a more deep tutorial you can check out the medium article

@@ -1,0 +1,11 @@
+{
+  "name": "promise-middleware",
+  "version": "0.0.0",
+  "description": "A Redux middleware that allows to automatically generate actions based on the state of the promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francesco Saverio Zuppichini",
+  "license": "ISC"
+}

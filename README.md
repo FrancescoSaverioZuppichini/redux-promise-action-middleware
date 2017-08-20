@@ -1,13 +1,13 @@
 # Promise Middleware
 ## A generic Flux/Redux midleware to handle promises
 
-###Installation
+### Installation
 
 ```
 npm install promise-middleware
 ```
 
-###Usage
+### Usage
 Add the middleware to Redux as always. You also need `redux-thunk` to make async actions work.
 
 ```
@@ -28,6 +28,9 @@ const fetchUser = { type: 'FETCH_USER',  promise: axios.get('https://randomuser.
 Remember, you need to put the Promise in the **promise field**
 
 Then the middleware will generate two actions: `FETCH_USER_LOADING` and `FETCH_USER_SUCCESS`. The payload is available on the `data` field of the action and the error on `err`
+
+![alt text](https://github.com/FrancescoSaverioZuppichini/promise-middleware/blob/master/docs/images/logger.png?raw=true)
+
 
 For a more deep tutorial you can check out the medium article
 

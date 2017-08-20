@@ -1,6 +1,6 @@
 {
   "name": "redux-promise-action-middleware",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "A Redux middleware that allows to automatically generate actions based on the state of the promise",
   "main": "index.js",
   "scripts": {

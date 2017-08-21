@@ -35,4 +35,4 @@ Then the middleware will generate two actions: `FETCH_USER_LOADING` and `FETCH_U
 For a more deep tutorial you can check out the medium article
 
 
-
+https://codeburst.io/improve-promises-in-flux-redux-a83c9cc60715

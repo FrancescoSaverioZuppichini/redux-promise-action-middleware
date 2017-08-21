@@ -1,4 +1,4 @@
-# Promise ACtion Middleware
+# Promise Action Middleware
 ## A generic Flux/Redux midleware to generate actions based on the promise status
 
 ### Installation
